@@ -6,5 +6,7 @@ function takeANumber(currentLine, name) {
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0){
     var firstPerson = katzDeliLine[0]
+    katzDeliLine.shift[0]
+    return firstPerson
   }
 }
