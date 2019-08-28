@@ -8,5 +8,7 @@ function nowServing(katzDeliLine) {
     var firstPerson = katzDeliLine[0]
     katzDeliLine.shift[0]
     return firstPerson
+  } else if (katzDeliLine.length == 0){
+    return "There is nobody waiting to be served!"
   }
 }
