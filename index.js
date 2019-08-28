@@ -15,6 +15,10 @@ function currentLine(KatzDeliLine) {
   if (KatzDeliLine.length == 0) {
     return "The line is currently empty."
   } else if (KatzDeliLine.length > 0) {
+    var lineString = []
     
+    for (var i = 0; i < KatzDeliLine.length; i++) {
+      
+    }
   }
 }
